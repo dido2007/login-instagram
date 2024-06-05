@@ -7,7 +7,7 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter";
  
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [
-    
+    InstagramProvider
   ],
   ...(connectMongo && { adapter: MongoDBAdapter(connectMongo) }),
 
