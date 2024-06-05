@@ -8,7 +8,7 @@ const SigninButton = async () => {
     <div>
       <form action={async () => {
         "use server"
-        await signIn("instagram",)
+        await signIn()
       }}>
 
         <Button type="submit">Sign in with Instagram</Button>
